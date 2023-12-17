@@ -61,12 +61,5 @@ private:
 
         sectionOut = section;
         columnOut = column;
-    }
-
-    void calculateAspectRatio()
-    {
-        aspectRatio[0] = sizeY * 1.28;
-        if (sizeY % 100)
-            aspectRatio[1] = sizeY % 100;
-    }
+    }    
 };
